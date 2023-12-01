@@ -179,6 +179,7 @@ bundlePromise
       });
     }
 
+    console.log(chalk.green.bold(bundleOutputExplorerFile));
     // Open output file
     return open(bundleOutputExplorerFile);
   }).catch(error => console.log(
